@@ -10,7 +10,6 @@ export default function LabsLayout({
         <tr>
           <td valign="top" width="100px">
             <TOC />
-            Created by Aniket Sambher
           </td>
           <td valign="top">{children}</td>
         </tr>
