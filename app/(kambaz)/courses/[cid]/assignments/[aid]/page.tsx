@@ -26,27 +26,24 @@ export default async function AssignmentEditor({
           </tr>
         </tbody>
       </table>
-      <h6>Assignment Group</h6>
+      <label htmlFor="wd-group">Assignment Group</label>
       <select id="wd-group">
         <option value="ASSIGNMENTS">ASSIGNMENTS</option>
         <option value="QUIZZES">QUIZZES</option>
         <option value="EXAMS">EXAMS</option>
         <option value="PROJECTS">PROJECTS</option>
       </select>
-      <h6>Display Grade</h6>
+      <label htmlFor="wd-display-grade-as">Display Grade as</label>
       <select id="wd-display-grade-as">
-        <option value="A">A</option>
-        <option value="B">B</option>
-        <option value="C">C</option>
-        <option value="D">D</option>
-        <option value="F">F</option>
+        <option value="PERCENTAGE">Percentage</option>
+        <option value="POINTS">Points</option>
       </select>
-      <h6>Submission Type</h6>
+      <label htmlFor="wd-submission-type">Submission Type</label>
       <select id="wd-submission-type">
         <option value="ONLINE">ONLINE</option>
         <option value="OFFLINE">OFFLINE</option>
       </select>
-      <h6>Online Entry Options</h6>
+      <label htmlFor="wd-online-entry-options">Online Entry Options</label>
       <select id="wd-online-entry-options">
         <option id="wd-text-entry" value="TEXT_ENTRY">TEXT ENTRY</option>
         <option id="wd-website-url" value="WEBSITE_URL">Website URL</option>

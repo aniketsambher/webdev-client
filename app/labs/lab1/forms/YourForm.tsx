@@ -10,10 +10,10 @@ export default function YourForm() {
 
       <h5>Text Fields</h5>
       <label htmlFor="wd-your-first-name">First name: </label>
-      <input type="text" id="wd-your-first-name" defaultValue="Jane" />
+      <input type="text" id="wd-your-first-name" defaultValue="Aniket" />
       <br />
       <label htmlFor="wd-your-last-name">Last name: </label>
-      <input type="text" id="wd-your-last-name" defaultValue="Doe" />
+      <input type="text" id="wd-your-last-name" defaultValue="Sambher" />
       <br />
       <label htmlFor="wd-your-student-id">Student ID: </label>
       <input type="password" id="wd-your-student-id" defaultValue="001234567" />
@@ -122,14 +122,14 @@ export default function YourForm() {
       <input
         type="email"
         id="wd-your-email"
-        placeholder="jane@university.edu"
+        placeholder="sambher.a@northeastern.edu"
       />
       <br />
       <label htmlFor="wd-your-grad-year">Expected graduation year: </label>
       <input
         type="number"
         id="wd-your-grad-year"
-        defaultValue="2027"
+        defaultValue="2028"
         min={2025}
         max={2032}
       />

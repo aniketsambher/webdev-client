@@ -40,7 +40,7 @@ export default function HighlightedParagraphLab() {
         borderRadius={16}
       />
       <HighlightedParagraph
-        text="My highlighted paragraph with custom props: light pink background, crimson border, 3px width, and no rounding."
+        text="This is Aniket trying out a highlighted paragraph with custom props: light green background, dark green border, 3px width, and 12px rounding."
         backgroundColor="#ffe4e1"
         borderColor="crimson"
         borderWidth="3px"
