@@ -1,10 +1,10 @@
 import PeopleTable from "./table/page";
 
-export default function People() {
+export default function People({ params }: { params: Promise<{ cid: string }> }) {
   return (
     <>
       <h4>People</h4>
-      <PeopleTable />
+      <PeopleTable params={params} />
     </>
   );
 }
